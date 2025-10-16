@@ -2,10 +2,8 @@ import {
   DefaultTheme as NavLightTheme,
   ThemeProvider,
 } from "@react-navigation/native";
-import {
-  MaterialNotificationContainer,
-  useThemeColors,
-} from "@gaddario98/react-native-ui";
+import { MaterialNotificationContainer } from "@gaddario98/react-native-ui";
+import { useThemeColors } from "@gaddario98/react-native-ui";
 import { AppProviders as BaseAppProvider } from "@gaddario98/react-providers";
 import { PropsWithChildren } from "react";
 
